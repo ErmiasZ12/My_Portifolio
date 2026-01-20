@@ -1,0 +1,75 @@
+
+
+
+.footer {
+  position: relative;
+  padding: 2rem 1rem 2.5rem;
+  text-align: center;
+  background-color: var(--bg-alt);
+  color: var(--text-secondary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode override (optional if you already use CSS vars globally) */
+.dark {
+  background-color: #0f172a;
+  color: #cbd5f5;
+}
+
+/* Social icons */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.social a {
+  font-size: 1.6rem;
+  color: inherit;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.social a:hover {
+  transform: translateY(-4px) scale(1.1);
+  color: #2563eb;
+}
+
+/* Back-to-top button */
+.backToTop {
+  margin: 0 auto 1rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.25s ease;
+}
+
+.backToTop:hover {
+  background: #1d4ed8;
+  transform: translateY(-4px);
+}
+
+/* Copyright */
+.copyright {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .social a {
+    font-size: 1.4rem;
+  }
+
+  .backToTop {
+    width: 34px;
+    height: 34px;
+  }
+}

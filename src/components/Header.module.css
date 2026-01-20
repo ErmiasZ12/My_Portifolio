@@ -1,0 +1,146 @@
+/* .header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.2rem 2rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+} */
+/* .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+/* Resume Button */
+/* .resumeBtn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.75rem;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.resumeBtn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}  */
+
+.headerHero {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+/* Top: logo + name/title */
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 90px;
+}
+
+.nameTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #4b5563;
+  margin-top: 0.25rem;
+}
+
+/* Intro paragraph */
+.intro {
+  margin-top: 1.5rem;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+  color: #111;
+  background-color: #e5e7eb;
+}
+
+.buttonPrimary {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.buttonResume {
+  background-color: #10b981; /* green for resume */
+  color: #fff;
+}
+
+.button:hover,
+.buttonPrimary:hover,
+.buttonResume:hover {
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
