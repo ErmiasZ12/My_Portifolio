@@ -1,46 +1,5 @@
 
 
-// import portfolioLogo from "../assets/images/logo.png";
-// import styles from "./Header.module.css";
-
-// const Header = () => {
-//   return (
-
-//     <section className={styles.headerHero}>
-//       <div className={styles.top}>
-//         <img src={portfolioLogo} alt="EW Logo" className={styles.logo} />
-//         <div className={styles.nameTitle}>
-//           <h1 className={styles.title}>Ermiyas Werdofa</h1>
-//           <h2 className={styles.subtitle}>Full-Stack Web Developer</h2>
-//         </div>
-//       </div>
-
-//       <p className={styles.intro}>
-//         I build modern web applications using React, Node.js, and SQL, with a
-//         strong interest in healthcare technology.
-//       </p>
-
-//       <div className={styles.buttons}>
-//         <a href="#projects" className={`${styles.button} ${styles.buttonPrimary}`}>
-//           View Projects
-//         </a>
-//         <a href="#contact" className={styles.button}>
-//           Contact Me
-//         </a>
-//         <a
-//           href="/resume/Ermiyas_Werdofa_Web_Developer_Resume.pdf"
-//           download
-//           className={`${styles.button} ${styles.buttonResume}`}
-//         >
-//           Download Resume
-//         </a>
-//       </div>
-//     </section>
-//   )
-// };
-
-// export default Header;
-
 
 import portfolioLogo from "../assets/images/logo.png";
 import styles from "./Header.module.css";
