@@ -1,7 +1,7 @@
 
 
 import { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import { ThemeContext } from "../Context/ThemeContext";
 import { FaGithub, FaLinkedin, FaTwitter, FaArrowUp } from "react-icons/fa";
 import styles from "./Footer.module.css";
 
